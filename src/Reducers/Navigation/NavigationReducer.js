@@ -5,5 +5,5 @@ const initialAction = { type: NavigationActions.INIT }
 const initialState = Navigator.router.getStateForAction(initialAction);
 
 export default (state = initialState, action) => {
-    return state;
+  return state;
 }

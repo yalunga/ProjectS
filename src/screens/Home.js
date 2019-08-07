@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Image, Dimensions } from 'react-native';
 import R from 'ramda';
-import DraggableAnimal from './DraggableAnimal';
+import DraggableAnimal from '../components/DraggableAnimal';
 
 const animals = [
   'tiger',
